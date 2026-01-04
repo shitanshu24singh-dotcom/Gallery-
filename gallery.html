@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title></title>
+    <style>
+        body{
+                 font-family: Arial, sans-serif;
+                background: #e9eef3;
+                margin: 0;
+                padding: 0;
+        }
+        .container{
+                width: 80%;
+                margin: 30px auto;
+                background: #fff;
+                border-radius: 4px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+                padding-bottom: 20px;
+        }
+        .header{
+                background: #3f6ea5;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                font-size: 24px;
+                font-weight: bold;
+        }
+        .gallery{
+                 display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                padding: 20px;
+        }
+        .card{
+                border: 1px solid #ccc;
+                text-align: center;
+                background: #f9f9f9;
+        }
+        .image{
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+                display: block;
+        }
+        .caption{
+                padding: 8px;
+                font-size: 14px;
+                background: #fff;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="header">Image Gallery</div>
+
+            <div class="gallery">
+                <div class="card">
+                    <img src="image1.png">
+                    <div class="caption">Caption 1</div>
+                </div>
+            
+                <div class="card">
+                    <img src="images.png">
+                    <div class="caption">Caption 2</div>
+                </div>
+            
+                <div class="card">
+                    <img src="images5.png">
+                    <div class="caption">Caption 3</div>
+                </div>
+            
+                <div class="card">
+                    <img src="images7.png">
+                    <div class="caption">Caption 4</div>
+                </div>
+            
+                <div class="card">
+                    <img src="images8.png">
+                    <div class="caption">Caption 5</div>
+                </div>
+            
+                <div class="card">
+                    <img src="images9.png">
+                    <div class="caption">Caption 6</div>
+                </div>
+            
+                <div class="card">
+                    <img src="images8.png">
+                    <div class="caption">Caption 7</div>
+                </div>
+            
+                <div class="card">
+                    <img src="image1.png">
+                    <div class="caption">Caption 8</div>
+                </div>
+            
+                <div class="card">
+                    <img src="image1.png">
+                    <div class="caption">Caption 9</div>
+                </div>
+            </div>
+        </div>
+    </body>
+<html>
